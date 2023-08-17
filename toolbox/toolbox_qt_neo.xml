@@ -689,6 +689,8 @@
 			<category name="InfraRed" colour="278">
 				<block type="qtpi_infrared_initialize">
 				</block>
+				<block type="qtpi_infrared_enable">
+				</block>
 				<block type="qtpi_infrared_read">
 				</block>
 			</category>

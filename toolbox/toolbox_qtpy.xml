@@ -504,6 +504,7 @@
 			<category name="Infrared" colour="170">
 				<block type="qtpy_ir"></block>
 				<block type="qtpy_ir_read"></block>
+				<block type="qtpy_ir_enable"></block>
 			</category>
 			<category name="Ldr" colour="170">
 				<block type="qtpy_ldr"></block>
