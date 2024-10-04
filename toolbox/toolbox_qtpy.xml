@@ -503,16 +503,23 @@
 			</category>
 			<category name="Infrared" colour="170">
 				<block type="qtpy_ir"></block>
-				<block type="qtpy_ir_read"></block>
-				<block type="qtpy_ir_enable"></block>
+				<block type="qtpi_infrared_read"></block>
+				<block type="qtpi_infrared_enable">
+				</block>
+				<block type="qtpi_infrared_disable">
+				</block>
 			</category>
 			<category name="Ldr" colour="170">
 				<block type="qtpy_ldr"></block>
 				<block type="qtpy_ldr_read"></block>
+				<block type="qtpy_ldr_enable"></block>
+				<block type="qtpy_ldr_disable"></block>
 			</category>
 			<category name="Limitswitch" colour="170">
 				<block type="qtpy_limitswitch"></block>
 				<block type="qtpy_limitswitch_read"></block>
+				<block type="qtpy_limitswitch_enable"></block>
+				<block type="qtpy_limitswitch_disable"></block>
 			</category>
 			<category name="Temperature" colour="160">
 				<block type="qtpy_temperature"></block>

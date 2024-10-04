@@ -689,9 +689,11 @@
 			<category name="InfraRed" colour="278">
 				<block type="qtpi_infrared_initialize">
 				</block>
+				<block type="qtpi_infrared_read">
+				</block>
 				<block type="qtpi_infrared_enable">
 				</block>
-				<block type="qtpi_infrared_read">
+				<block type="qtpi_infrared_disable">
 				</block>
 			</category>
 			<category name="LDR" colour="165">
@@ -712,6 +714,16 @@
 				<block type="qtpi_limitswitch_enable">
 				</block>
 				<block type="qtpi_limitswitch_disable">
+				</block>
+			</category>
+			<category name="Moisture" colour="200">
+				<block type="qtpi_moisture_initialize">
+				</block>
+				<block type="qtpi_moisture_read">
+				</block>
+				<block type="qtpi_moisture_enable">
+				</block>
+				<block type="qtpi_moisture_disable">
 				</block>
 			</category>
 			<category name="MPU6050" colour="224">
